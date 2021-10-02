@@ -1,0 +1,36 @@
+#root{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.app-wrapper {
+  display: grid;
+  grid-template-areas: 
+  "header header"
+  "nav main";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+  text-align: center;
+  max-width: 100%;
+} 
+.nav{
+   grid-area: nav;
+}
+.header{
+  display: grid;
+  grid-template-areas: "logo header-content";
+  grid-template-columns: 2fr 10fr;
+  grid-area: header;
+}
+.logo{
+  grid-area: logo;
+  width: 100%;
+  height: 80%;
+  background-image: url("./logo.svg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+.content {
+   grid-area: main;
+   background-color:blanchedalmond;
+}
