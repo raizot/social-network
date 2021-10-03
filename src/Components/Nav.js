@@ -1,8 +1,8 @@
 import React from 'react'
-
+import style from './Nav.module.css'
 const Nav = () => {
   return ( 
-     <nav className = "nav" >
+     <nav nav className = {`${style.nav}`} >
       <ul>
         <li>
           <a href="#">Profile</a>
