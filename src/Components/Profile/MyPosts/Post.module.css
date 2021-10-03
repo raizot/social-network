@@ -1,0 +1,20 @@
+.post_avatar_wrap{
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+}
+.post{
+  display: flex;
+  flex-direction: column;
+}
+.post_wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.post_text{
+  margin-top: 15px;
+  max-width: 600px;
+}
+.like{
+  text-align: left;
+}
