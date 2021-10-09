@@ -1,0 +1,34 @@
+.content {
+  grid-area: main;
+  background-color: blanchedalmond;
+}
+.picture_wrapper{
+  overflow:hidden;
+  max-height: 300px;
+}
+.main_picture {
+  max-width: 100%;
+  max-height: auto;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile_info {
+  display: flex;
+  flex-direction: row;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  max-width: 600px;
+}
+
+.person_age,
+.person_name,
+.person_about {
+  text-align: left;
+}

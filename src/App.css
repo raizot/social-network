@@ -105,7 +105,13 @@ select {
   border-radius: 50%;
   overflow: hidden;
 }
-
+a{
+  text-decoration:none;
+  color: #000;
+}
+a.active{
+  color: aqua;
+}
 .picture {
   position: absolute;
   left: 70%;

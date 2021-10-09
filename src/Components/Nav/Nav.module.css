@@ -1,3 +1,18 @@
 .nav {
   grid-area: nav;
 }
+.nav a{
+  text-decoration:none;
+}
+.nav li{
+    text-align: left;
+}
+.nav li a {
+  color: black;
+}
+li{
+  list-style-type: none;
+}
+.nav li a.active {
+  color: aqua;
+}

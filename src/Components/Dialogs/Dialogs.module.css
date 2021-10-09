@@ -1,0 +1,10 @@
+.dialogs_wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.messages{
+  margin-left: 20px;
+}
+.name_item{
+  margin-bottom: 5px;
+}
